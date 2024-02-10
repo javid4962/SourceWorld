@@ -7,7 +7,6 @@ import Resumes from "./pages/Resumes.jsx";
 import Skills from "./pages/Skills.jsx";
 import MyProjects from "./pages/MyProjects.jsx";
 import Profiles from "./pages/Profiles.jsx";
-import DrivePicker from "./pages/DrivePicker.jsx";
 import './App.css'
 
 
@@ -25,7 +24,6 @@ export default function App() {
                     <Route path="/profiles" element={<Profiles />} />
                     {/* <Route path='/' element={<Home />}> */}
                     <Route path='/home' element={<Home />} />
-                    <Route path='/drivepicker' element={<DrivePicker />} />
                     <Route path='/' element={<Parent />}>
                     </Route>
                 </Routes>

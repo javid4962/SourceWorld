@@ -40,9 +40,7 @@ function Header() {
                         <li className="nav-item">
                             <Link className="nav-link" to="/profiles">My Profiles</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/drivepicker">DrivePicker</Link>
-                        </li>
+                      
                     </ul>
                     {/* Add your search form or other elements here */}
                 </div>
