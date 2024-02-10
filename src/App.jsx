@@ -1,11 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Parent from "./pages/Parent.jsx";
 import Home from "./pages/Home.jsx";
 import Resources from "./pages/Resources.jsx";
 // import Mymemory from "./pages/Mymemory.jsx";
 import Resumes from "./pages/Resumes.jsx";
 import Skills from "./pages/Skills.jsx";
 import MyProjects from "./pages/MyProjects.jsx";
-// import Profiles from "./pages/Profiles.jsx";
+import Profiles from "./pages/Profiles.jsx";
+import DrivePicker from "./pages/DrivePicker.jsx";
 import './App.css'
 
 
@@ -20,8 +22,11 @@ export default function App() {
                     <Route path="/resumes" element={<Resumes />} />
                     {/* <Route path="/mymemory" element={<Mymemory />} /> */}
                     <Route path="/resources" element={<Resources />} />
-                    {/* <Route path="/profiles" element={<Profiles />} /> */}
-                    <Route path='/' element={<Home />}>
+                    <Route path="/profiles" element={<Profiles />} />
+                    {/* <Route path='/' element={<Home />}> */}
+                    <Route path='/home' element={<Home />} />
+                    <Route path='/drivepicker' element={<DrivePicker />} />
+                    <Route path='/' element={<Parent />}>
                     </Route>
                 </Routes>
             </BrowserRouter>

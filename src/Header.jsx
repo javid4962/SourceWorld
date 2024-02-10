@@ -23,7 +23,7 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link" to='/'>Home</Link>
+                            <Link className="nav-link" to='/home'>Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to='/resources'>Resources</Link>
@@ -37,9 +37,12 @@ function Header() {
                         <li className="nav-item">
                             <Link className="nav-link" to="/projects">My Projects</Link>
                         </li>
-                        {/* <li className="nav-item">
+                        <li className="nav-item">
                             <Link className="nav-link" to="/profiles">My Profiles</Link>
-                        </li> */}
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/drivepicker">DrivePicker</Link>
+                        </li>
                     </ul>
                     {/* Add your search form or other elements here */}
                 </div>

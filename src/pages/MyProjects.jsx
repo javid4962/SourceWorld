@@ -16,7 +16,7 @@ export default function MyProjects() {
                 <div className="col ">
                     <div className=" g-0 border rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                         {/* project thumbnail */}
-                        <img src={bg1} alt="" className="d-sm-block d-md-block p-2" />
+                        <img src={bg1} alt="" className="d-sm-block d-md-block p-2" loading="lazy"/>
                         <div className="col p-4 d-flex flex-column overflow-auto">
                             <h3 className="mb-0"><a href="https://github.com/javid4962/Shoes-Ecommerce-Website" target="blank" className="text-primary">Shoes-Ecommerce-Website</a></h3>
                             <div className="mb-1 text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, molestiae deserunt, quisquam porro voluptatibus dolorem velit assumenda at quibusdam est vero rem fugiat praesentium voluptatum exercitationem inventore. Repudiandae, harum doloremque?</div>
@@ -32,7 +32,7 @@ export default function MyProjects() {
                 <div className="col ">
                     <div className=" g-0 border rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                         {/* project thumbnail */}
-                        <img src={bg2} alt="" className="d-sm-block d-md-block p-2 " />
+                        <img src={bg2} alt="" className="d-sm-block d-md-block p-2 " loading="lazy"/>
                         <div className="col p-4 d-flex flex-column overflow-auto">
                             <h3 className="mb-0 "><a href="https://github.com/javid4962/Python_calculator" target="blank" className="text-primary">Python Calculator</a></h3>
                             <div className="mb-1 text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, molestiae deserunt, quisquam porro voluptatibus dolorem velit assumenda at quibusdam est vero rem fugiat praesentium voluptatum exercitationem inventore. Repudiandae, harum doloremque?</div>
@@ -47,7 +47,7 @@ export default function MyProjects() {
                 <div className="col ">
                     <div className=" g-0 border rounded  d-flex flex-column flex-md-column flex-lg-column text-bg-dark">
                         {/* project thumbnail */}
-                        <img src={bg3} alt="" className="d-sm-block d-md-block p-2" />
+                        <img src={bg3} alt="" className="d-sm-block d-md-block p-2" loading="lazy"/>
                         <div className="col p-4 d-flex flex-column overflow-auto">
                             <h3 className="mb-0"><a href="https://github.com/javid4962/Cloths-Ecommerce-Website" target="blank" className="text-primary">Cloths-Ecommerce-Website</a></h3>
                             <div className="mb-1 text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, molestiae deserunt, quisquam porro voluptatibus dolorem velit assumenda at quibusdam est vero rem fugiat praesentium voluptatum exercitationem inventore. Repudiandae, harum doloremque?</div>

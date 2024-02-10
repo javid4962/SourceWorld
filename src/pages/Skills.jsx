@@ -11,7 +11,7 @@ export default function Skills() {
 
                 <div className="col p-2">
                     <div className="card shadow-sm text-bg-dark">
-                    <img src="/thumbnail1.jpg" className="p-3" />
+                    <img src="/thumbnail1.jpg" className="p-3" loading="lazy"/>
                     <hr className="bg-white" />
                         <div className="h-100 p-4 text-bg-dark ">
                             <h4>Sigma WebDevelopment Express - <a href="https://www.youtube.com/@CodeWithHarry" target="blank" className="text-primary fs-6">@CodeWithHarry</a></h4>
@@ -25,7 +25,7 @@ export default function Skills() {
 
                 <div className="col p-2">
                     <div className="card shadow-sm  text-bg-dark">
-                    <img src="/thumbnail2.jpg" className="p-3" />
+                    <img src="/thumbnail2.jpg" className="p-3" loading="lazy"/>
                     <hr className="bg-white" />
                         <div className="h-100 p-4 text-bg-dark">
                             <h4>HTML AND CSS full course - <a href="https://www.youtube.com/@BroCodez" target="blank" className="fs-6 text-primary">@BroCodez</a></h4>
@@ -37,7 +37,7 @@ export default function Skills() {
 
                 <div className="col p-2">
                     <div className="card shadow-sm text-bg-dark">
-                    <img src="/thumbnail3.jpg" className="p-3" />
+                    <img src="/thumbnail3.jpg" className="p-3" loading="lazy"/>
                     <hr className="bg-white" />
                         <div className="h-100 p-4 text-bg-dark ">
                             <h4>Full Stack Web Dev Course - <a href="https://www.youtube.com/@freecodecamp" target="blank" className="text-primary fs-6">freeCodeCamp.org</a></h4>
@@ -51,7 +51,7 @@ export default function Skills() {
 
                 <div className="col p-2">
                     <div className="card shadow-sm text-bg-dark">
-                    <img src="/thumbnail4.jpg" className="p-3" />
+                    <img src="/thumbnail4.jpg" className="p-3" loading="lazy"/>
                     <hr className="bg-white" />
                         <div className="h-100 p-4 text-bg-dark ">
                             <h4>Linux Crash Course - <a href="https://www.youtube.com/@LearnLinuxTV" target="blank" className="text-primary fs-6">@LearnLinuxTV</a></h4>
@@ -63,7 +63,7 @@ export default function Skills() {
 
                 <div className="col p-2">
                     <div className="card shadow-sm  text-bg-dark">
-                    <img src="/thumbnail5.jpg" className="p-3" />
+                    <img src="/thumbnail5.jpg" className="p-3" loading="lazy"/>
                     <hr className="bg-white" />
                         <div className="h-100 p-4 text-bg-dark ">
                             <h4>Java + DSA + Interview Preparation Course - <a href="https://www.youtube.com/@KunalKushwaha" target="blank" className="fs-6 text-primary">@KunalKushwaha</a></h4>
@@ -75,7 +75,7 @@ export default function Skills() {
 
                 <div className="col p-2">
                     <div className="card shadow-sm text-bg-dark">
-                    <img src="/thumbnail6.jpg" className="p-3" />
+                    <img src="/thumbnail6.jpg" className="p-3" loading="lazy"/>
                     <hr className="bg-white" />
                         <div className="h-100 p-4 text-bg-dark ">
                             <h4>cs50x 2024 Scratch - <a href="https://www.youtube.com/@cs50" target="blank" className="text-primary fs-6">@cs50</a></h4>

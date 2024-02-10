@@ -4,13 +4,13 @@ import Footer from "../Footer";
 export default function Resumes() {
 
     const resumes = [
-        "/resumes/resume1.pdf",
-        "/resumes/resume2.pdf",
-        "/resumes/resume3.pdf",
-        "/resumes/resume4.pdf",
-        "/resumes/resume5.pdf",
-        "/resumes/resume6.pdf",
-        "/resumes/resume7.pdf"
+        "/resumes/MASTHANJAVIDVALI.pdf",
+        "/resumes/MASTHANJAVIDVALISHAIK (1).pdf",
+        "/resumes/MASTHANJAVIDVALISHAIK-MILLIMAN.pdf",
+        "/resumes/MASTHANJAVIDVALISHAIK.pdf",
+        "/resumes/MASTHANJAVIDVALISHAIK1.pdf",
+        "/resumes/MASTHANJAVIDVALISHAIK3.pdf",
+        "/resumes/SHAIKMASTHANJAVIDVALI-Wipro.pdf"
 
 
 
@@ -37,7 +37,7 @@ export default function Resumes() {
                         <div className="col p-1">
                             <div className="card shadow-sm">
                                 <iframe
-                                    src={'https://drive.google.com/file/d/169Dyg1iwBPo_IICb54cQDOWm5TiRvyHX/preview?usp=drive_link'}
+                                    src={resumes[0]}
                                     height="300px"
                                     loading="lazy"
                                 ></iframe>
@@ -55,12 +55,8 @@ export default function Resumes() {
                         </div>
                         <div className="col p-1">
                             <div className="card shadow-sm">
-                                {/* <iframe
+                                <iframe
                                     src={resumes[1]}
-                                    height="300px"
-                                ></iframe> */}
-                                 <iframe
-                                    src={'https://drive.google.com/file/d/169Dyg1iwBPo_IICb54cQDOWm5TiRvyHX/preview?usp=drive_link'}
                                     height="300px"
                                     loading="lazy"
                                 ></iframe>
@@ -78,12 +74,8 @@ export default function Resumes() {
                         </div>
                         <div className="col p-1">
                             <div className="card shadow-sm">
-                                {/* <iframe
+                                <iframe
                                     src={resumes[2]}
-                                    height="300px"
-                                ></iframe> */}
-                                 <iframe
-                                    src={'https://drive.google.com/file/d/169Dyg1iwBPo_IICb54cQDOWm5TiRvyHX/preview?usp=drive_link'}
                                     height="300px"
                                     loading="lazy"
                                 ></iframe>
@@ -105,6 +97,7 @@ export default function Resumes() {
                                 <iframe
                                     src={resumes[3]}
                                     height="300px"
+                                    loading="lazy"
                                 ></iframe>
                                 <div className="card-body bg-black text-white">
                                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -123,6 +116,7 @@ export default function Resumes() {
                                 <iframe
                                     src={resumes[4]}
                                     height="300px"
+                                    loading="lazy"
                                 ></iframe>
                                 <div className="card-body bg-black text-white">
                                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -141,6 +135,7 @@ export default function Resumes() {
                                 <iframe
                                     src={resumes[5]}
                                     height="300px"
+                                    loading="lazy"
                                 ></iframe>
                                 <div className="card-body bg-black text-white">
                                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -159,6 +154,7 @@ export default function Resumes() {
                                 <iframe
                                     src={resumes[6]}
                                     height="300px"
+                                    loading="lazy"
                                 ></iframe>
                                 <div className="card-body bg-black text-white">
                                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
