@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# from Home.jsx -> login page
+# <h1 className=" fst-italic">Welcome to SourceWorld</h1>
+#                 <div className="form d-flex z-999 bg-white w-100  flex-column m-5 w-50 justify-content-center border border-1 shadow-lg p-5 rounded-2 ">
+
+#                     {mode === 'signup' ? <h1 className="h3 mb-3 fw-normal">Please Sign Up</h1> : <h1 className="h3 mb-3 fw-normal">Please Sign In</h1>}
+#                     <form onSubmit={handleSubmit}>
+
+#                         {mode === 'signin' && (
+#                             <div className="form-floating">
+#                                 <input type="text" name="username" value={formData.username} onChange={handleChange} className="form-control" id="floatingInput" placeholder="UserName" />
+#                                 <label className="text-black">Username</label>
+#                             </div>
+#                         )}
+#                         <br />
+#                         <div className="form-floating">
+#                             <input type="email" name="email" value={formData.email} onChange={handleChange} className="form-control" id="floatingInput" placeholder="name@example.com" />
+#                             <label className="text-black">Email</label>
+#                         </div>
+#                         <br />
+#                         <div className="form-floating">
+#                             <input type="password" name="password" value={formData.password} onChange={handleChange} className="form-control" id="floatingPassword" placeholder="Password" />
+#                             <label for="floatingPassword" className="text-black">Password</label>
+#                         </div>
+#                         <br />
+#                         <button type="submit" className='btn btn-primary mx-auto py-2'>{mode === 'signup' ? 'Sign Up' : 'Sign In'}</button>
+#                     </form>
+#                 </div>
+#                 <p>
+#                     {mode === 'signup' ? 'Already have an account?' : 'Don\'t have an account?'}
+#                     <button type="button" onClick={toggleMode} className="btn text-white bg-black fs-5  border  rounded-1 py-2 m-2">
+#                         {mode === 'signup' ? 'Sign In' : 'Sign Up'}
+#                     </button>
+#                 </p>

@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+body {
+  background: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+input {
+  background-color: black;
+  color: white;
+}
+input::placeholder {
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+.nav-link {
+  color: white !important;
+}
+.image {
+  /* width: 100px !importan; */
+  background: url("https://cdn.campsite.bio/eyJidWNrZXQiOiJjYW1wc2l0ZS1iaW8tc3RvcmFnZSIsImtleSI6Im1lZGlhL3Byb2ZpbGUtaW1hZ2VzLzk3ZmVhYTM5LTAzYzktNGI1Yy04MWVlLTIzYWVlODQ2OTViNC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIwMH19fQ==")
+    no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.image1 {
+  background: url("https://yt3.ggpht.com/YBca7u5MrGplRS-HJ_me6MO_6Mw_IdvFNqoCczIU3aTBGVdV8IWOCDdxCMQ9y9_oN4-8KZVPIw=s88-c-k-c0x00ffffff-no-rjhttps://yt3.ggpht.com/YBca7u5MrGplRS-HJ_me6MO_6Mw_IdvFNqoCczIU3aTBGVdV8IWOCDdxCMQ9y9_oN4-8KZVPIw=s88-c-k-c0x00ffffff-no-rjhttps://yt3.ggpht.com/YBca7u5MrGplRS-HJ_me6MO_6Mw_IdvFNqoCczIU3aTBGVdV8IWOCDdxCMQ9y9_oN4-8KZVPIw=s88-c-k-c0x00ffffff-no-rjhttps://yt3.ggpht.com/YBca7u5MrGplRS-HJ_me6MO_6Mw_IdvFNqoCczIU3aTBGVdV8IWOCDdxCMQ9y9_oN4-8KZVPIw=s88-c-k-c0x00ffffff-no-rj")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-outline-light:hover .bi {
+  color: red !important;
+  transition-delay: 0.2s;
+  transition-behavior: smooth;
+  transition-timing-function: ease;
+}
+
+.btn-outline-light:hover a {
+  color: blue !important;
+  transition-delay: 0.2s;
+  transition-behavior: smooth;
+  transition-timing-function: ease;
+}
+
+/* body {
+  background-image: url(./assets/bg-main.jpeg);
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+} */
+/* @keyframes moveRight {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(10px); }
+}
+
+.animate {
+  animation: moveRight 1s linear ;
+} */
