@@ -4,13 +4,14 @@ import Footer from "../Footer";
 export default function Resumes() {
 
     const resumes = [
-        "/resumes/MASTHANJAVIDVALI.pdf",
-        "/resumes/MASTHANJAVIDVALISHAIK (1).pdf",
-        "/resumes/MASTHANJAVIDVALISHAIK-MILLIMAN.pdf",
-        "/resumes/MASTHANJAVIDVALISHAIK.pdf",
-        "/resumes/MASTHANJAVIDVALISHAIK1.pdf",
-        "/resumes/MASTHANJAVIDVALISHAIK3.pdf",
-        "/resumes/SHAIKMASTHANJAVIDVALI-Wipro.pdf"
+        "/resumes/resume1.pdf",
+        "/resumes/resume2.pdf",
+        "/resumes/resume3.pdf",
+        "/resumes/resume4.pdf",
+        "/resumes/resume5.pdf",
+        "/resumes/resume6.pdf",
+        "/resumes/resume7.pdf"
+    
 
 
 
