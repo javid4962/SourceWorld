@@ -25,9 +25,7 @@ input::placeholder {
 a {
   text-decoration: none;
 }
-.nav-link {
-  color: white !important;
-}
+
 .image {
   /* width: 100px !importan; */
   background: url("https://cdn.campsite.bio/eyJidWNrZXQiOiJjYW1wc2l0ZS1iaW8tc3RvcmFnZSIsImtleSI6Im1lZGlhL3Byb2ZpbGUtaW1hZ2VzLzk3ZmVhYTM5LTAzYzktNGI1Yy04MWVlLTIzYWVlODQ2OTViNC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIwMH19fQ==")
@@ -54,6 +52,18 @@ a {
   transition-delay: 0.2s;
   transition-behavior: smooth;
   transition-timing-function: ease;
+}
+
+.nav-li:hover{
+  /* transition-delay: .1s; */
+  transition-property: all;
+  transition-behavior: smooth;
+  /* background: #0ff; */
+  /* background: linear-gradient(30deg,black, blue, black); */
+  transform: translate(0,-2px);
+  color: gold;
+  /* border-bottom: 2px solid white; */
+  text-shadow: 5px 5px 5px black;
 }
 
 /* body {
